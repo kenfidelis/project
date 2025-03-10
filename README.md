@@ -12,7 +12,7 @@ This project provides a testing framework for IoT soil moisture sensors, includi
 
 ## Project Structure
 
-```
+```plaintext
 .
 ├── src/
 │   └── soil_moisture_sensor.py
@@ -43,6 +43,7 @@ pytest --cov=src tests/
 ## CI/CD
 
 The project includes GitHub Actions workflow that:
+
 - Runs on push to main and pull requests
 - Sets up Python environment
 - Installs dependencies
